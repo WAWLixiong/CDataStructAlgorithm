@@ -16,6 +16,8 @@ set(
         stack_sq/stack.h
         stack_link/stack_link.c
         stack_link/stack_link.h
-)
+        queue/queue.c
+        queue/queue.h
+        queue_link/queue_link.c queue_link/queue_link.h)
 
 add_executable(DataStructAlgorithm ${SOURCE_FILES})
